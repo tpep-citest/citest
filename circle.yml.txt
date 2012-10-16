@@ -1,0 +1,10 @@
+## Customize the test machine
+machine:
+
+  timezone:
+    America/Los_Angeles # Set the timezeone
+
+## Customize test commands
+test:
+  override:
+    - phpunit test/unit-tests # use PHPunit for testing
