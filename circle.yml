@@ -7,4 +7,6 @@ machine:
 ## Customize test commands
 test:
   override:
+    - ls -lah
+    - cwd
     - phpunit tests/ # use PHPunit for testing
