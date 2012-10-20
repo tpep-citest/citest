@@ -1,0 +1,12 @@
+## Customize the test machine
+machine:
+
+  timezone:
+    America/Los_Angeles # Set the timezeone
+
+## Customize test commands
+test:
+  override:
+    - ls -lah
+    - pwd
+    - php artisan test:core # use PHPunit for testing
