@@ -9,4 +9,6 @@ test:
   override:
     - ls -lah
     - pwd
+    - apt-get install php5-mcrypt
+    - sudo apt-get install php5-mcrypt
     - php artisan test:core # use PHPunit for testing
