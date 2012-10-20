@@ -1,4 +1,0 @@
-citest
-======
-
-Continuous integration test
