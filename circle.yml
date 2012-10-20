@@ -8,5 +8,5 @@ machine:
 test:
   override:
     - ls -lah
-    - cwd
-    - phpunit tests/ # use PHPunit for testing
+    - pwd
+    - phpunit tests/lib/util.php # use PHPunit for testing
