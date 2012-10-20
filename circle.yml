@@ -7,4 +7,4 @@ machine:
 ## Customize test commands
 test:
   override:
-    - phpunit test/unit-tests # use PHPunit for testing
+    - phpunit tests/apps # use PHPunit for testing
