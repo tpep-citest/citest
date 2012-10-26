@@ -7,6 +7,4 @@ machine:
 ## Customize test commands
 test:
   override:
-    - sudo apt-get update
-    - sudo apt-get -y install php5-mcrypt
-    - php artisan test:core # use PHPunit for testing
+    - php -r 'phpinfo();';
